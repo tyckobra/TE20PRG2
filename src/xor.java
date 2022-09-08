@@ -9,7 +9,7 @@ public class xor {
         System.out.println(c);
         System.out.println((char)(c));
 
-        for (int a = 738;a <= 1000,m++){
+       // for (int a = 738;a <= 1000,m++){
             System.out.println(c);
         }
 
@@ -18,4 +18,4 @@ public class xor {
             return c;
         }
     }
-}
+
