@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="627b6f04-23a5-4599-9afb-867b7450526c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tycko" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TE20PRG2/xor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TE20PRG2/xor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Text.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.xor">
+  <component name="RunManager" selected="Application.Text">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloWorld" />
       <module name="TE20PRG2" />
@@ -64,6 +63,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Text" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Text" />
+      <module name="TE20PRG2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="xor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xor" />
       <module name="TE20PRG2" />
@@ -73,6 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Text" />
         <item itemvalue="Application.xor" />
         <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.Psykolog" />
@@ -91,7 +98,8 @@
       <workItem from="1661427029368" duration="5732000" />
       <workItem from="1662030716403" duration="1294000" />
       <workItem from="1662115838576" duration="2752000" />
-      <workItem from="1662635775708" duration="1242000" />
+      <workItem from="1662635775708" duration="1976000" />
+      <workItem from="1662719730400" duration="3615000" />
     </task>
     <task id="LOCAL−00001" summary="yuuh">
       <created>1661514041755</created>
@@ -105,7 +113,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1662118586549</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="yuuh">
+      <created>1662637156975</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1662637156975</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
