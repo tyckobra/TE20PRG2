@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Random;
 import java.io.*;
 
@@ -6,13 +7,17 @@ import static java.lang.System.out;
 public class Text {
     public static void main(String[] args) throws IOException {
 
-        File ok = new File("Tycko.txt");
+        File tycko = new File("Tycko.txt");
+
+        BufferedReader reader = null;
+        BufferedWriter writer = null;
+        ArrayList list = new ArrayList();
 
         DataInputStream input = new DataInputStream (new BufferedInputStream(new FileInputStream("myData.dat")));
         DataOutputStream output = new DataOutputStream (new BufferedOutputStream(new FileOutputStream("myData.dat")));
 
-        String ty = "Tycko.txt";
-        FileWriter fw = new FileWriter(ty);
+        reader = new BufferedReader(new FileReader(tycko));
+        FileWriter fw = new FileWriter(tycko);
         BufferedWriter bw = new BufferedWriter(fw);
         PrintWriter utFil = new PrintWriter(bw);
 
@@ -22,7 +27,7 @@ public class Text {
         outFile.writeInt(number);
 
         input.readInt();
-        output.writeInt(new FileWriter());
+        output.writeInt(new Integer(number));
 
         int y;
         int x;
