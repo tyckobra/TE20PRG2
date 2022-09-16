@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="627b6f04-23a5-4599-9afb-867b7450526c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tycko.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Text.java" afterDir="false" />
     </list>
@@ -47,7 +48,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Text">
+  <component name="RunManager" selected="Application.tycko">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloWorld" />
       <module name="TE20PRG2" />
@@ -69,6 +70,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tycko" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tycko" />
+      <module name="TE20PRG2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="xor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xor" />
       <module name="TE20PRG2" />
@@ -78,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tycko" />
         <item itemvalue="Application.Text" />
         <item itemvalue="Application.xor" />
         <item itemvalue="Application.HelloWorld" />
@@ -99,7 +108,8 @@
       <workItem from="1662115838576" duration="2752000" />
       <workItem from="1662635775708" duration="1976000" />
       <workItem from="1662719730400" duration="3657000" />
-      <workItem from="1663240562873" duration="2035000" />
+      <workItem from="1663240562873" duration="2102000" />
+      <workItem from="1663324224138" duration="3841000" />
     </task>
     <task id="LOCAL−00001" summary="yuuh">
       <created>1661514041755</created>
@@ -125,7 +135,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1662723396580</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="yuuh">
+      <created>1663243480994</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1663243480994</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

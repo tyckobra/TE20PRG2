@@ -7,14 +7,14 @@ import static java.lang.System.out;
 public class Text {
     public static void main(String[] args) throws IOException {
 
-        File tycko = new File("Tycko.txt");
+        File tycko = new File("Tycko");
 
         BufferedReader reader = null;
         BufferedWriter writer = null;
         ArrayList list = new ArrayList();
 
-        DataInputStream input = new DataInputStream (new BufferedInputStream(new FileInputStream("myData.dat")));
-        DataOutputStream output = new DataOutputStream (new BufferedOutputStream(new FileOutputStream("myData.dat")));
+        DataInputStream input = new DataInputStream (new BufferedInputStream(new FileInputStream("Tycko.txt")));
+        DataOutputStream output = new DataOutputStream (new BufferedOutputStream(new FileOutputStream("Tycko.txt")));
 
         reader = new BufferedReader(new FileReader(tycko));
         FileWriter fw = new FileWriter(tycko);
